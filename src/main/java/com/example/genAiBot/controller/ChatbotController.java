@@ -12,5 +12,10 @@ public class ChatbotController {
         return "index";
     }
 
+    @GetMapping("/upload")
+    public String uploadForm() {
+        return "upload";
+    }
+
   
 }
